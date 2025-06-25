@@ -2,6 +2,7 @@
   "name": "twist-starter",
   "type": "module",
   "version": "0.0.0",
+  "packageManager": "pnpm@10.6.2",
   "description": "{{description}}",
   "author": {
     "name": "razzh7",

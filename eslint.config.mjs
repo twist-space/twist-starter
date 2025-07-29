@@ -4,6 +4,7 @@ export default antfu({
   stylistic: {
     semi: true,
   },
+  regexp: false,
   type: 'lib',
   rules: {
     'no-useless-return': 'off',
@@ -16,6 +17,7 @@ export default antfu({
     'regexp/no-unused-capturing-group': 'off',
     'test/consistent-test-it': 'off',
     'node/prefer-global/process': 'off',
+    'ts/explicit-function-return-type': 'off',
   },
   ignores: ['.github/*'],
 });
